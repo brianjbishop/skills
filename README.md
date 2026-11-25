@@ -32,8 +32,13 @@ Each skill is a folder with a `SKILL.md` (YAML frontmatter with `name` and `desc
 | [prompt](made/prompt) | Prompt Polisher 3.0: the KERNEL framework | Uploaded to Claude |
 | [stack-prints](made/stack-prints) | Model stacked 3D prints that snap apart after printing | Uploaded to Claude |
 | [3dprinteros-batch-slice](made/3dprinteros-batch-slice) | Slice STLs one after another in 3DPrinterOS for the Bambu P2S | Uploaded to Claude |
+| [apply](made/apply) | Career writing: cover letters, follow-ups, interview prep, resume tailoring | Uploaded to Claude |
+| [port-entry](made/port-entry) | Turn a project's notes, repo and files into a brianjbishop.com portfolio section | Uploaded to Claude |
+| [brian-blog-voice](made/brian-blog-voice) | Write blog posts in b.'s own voice | Notion Skills library |
+| [chef](made/chef) | Three recipes from what's in the fridge, with photo prompts | Uploaded to Claude |
+| [chef-bulk](made/chef-bulk) | Batch-cooking recipes that last one to two weeks | Uploaded to Claude |
 
-A few more personal skills (career writing, cooking, portfolio and blog voice) are kept private and aren't in this repo. Some skills here point to reference PDFs (past decks, real examples); those are kept private too, and the tables that list them say so.
+Some skills here point to reference PDFs (past decks, real examples); those are kept private too, and the tables that list them say so.
 
 No license has been chosen yet for the skills in `made/`. Until one is added, all rights are reserved by b.
 
