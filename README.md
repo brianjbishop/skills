@@ -1,13 +1,13 @@
 # skills
 
-All of b.'s agent skills in one place: the ones he wrote, the ones he downloaded, and the ones that came built into Claude.
+All of b.'s agent skills in one place: the ones b. wrote, the ones b. downloaded, and the ones that came built into Claude.
 
 Each skill is a folder with a `SKILL.md` (YAML frontmatter with `name` and `description`, then plain Markdown instructions) and sometimes `references/`, `scripts/` or examples beside it.
 
 ## Folders
 
 - `made/` skills b. wrote himself.
-- `downloaded/` third-party skills, copied here because their licenses allow it, with each license kept beside the skill.
+- `downloaded/` third-party skills (design ones in `downloaded/design/`), copied here because their licenses allow it, with each license kept beside the skill.
 - `built-in/` skills that ship with Claude, copied from Anthropic's public repo under Apache 2.0.
 
 ---
@@ -36,6 +36,25 @@ Each skill is a folder with a `SKILL.md` (YAML frontmatter with `name` and `desc
 A few more personal skills (career writing, cooking, portfolio and blog voice) are kept private and aren't in this repo. Some skills here point to reference PDFs (past decks, real examples); those are kept private too, and the tables that list them say so.
 
 No license has been chosen yet for the skills in `made/`. Until one is added, all rights are reserved by b.
+
+## Design
+
+The skills b. reaches for on web and UI work, used across projects including Audiophilium. [site-stack](made/site-stack) is b.'s own; the rest are third-party. Where the license allows it, the skill is copied into `downloaded/design/` with its license and a `SOURCE.md` naming the exact upstream commit. The others are linked only.
+
+| Skill | What it does | Source | Here |
+| --- | --- | --- | --- |
+| [site-stack](made/site-stack) | b.'s portfolio site stack, driven by Notion and Figma comments | Written for this repo | Copied |
+| [frontend-design](downloaded/design/frontend-design) | Distinctive visual direction for new or reshaped UI | [anthropics/skills](https://github.com/anthropics/skills) | Copied, Apache-2.0 |
+| [impeccable](downloaded/design/impeccable) | Design, critique, audit and polish a frontend; builds on frontend-design | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Copied, Apache-2.0 |
+| [ui-ux-pro-max](downloaded/design/ui-ux-pro-max) | UI/UX design data and rules for web, mobile and desktop | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Copied, MIT |
+| [high-end-visual-design](downloaded/design/high-end-visual-design) | Calm, polished UI: soft contrast, whitespace, spring motion | [Leonxlnx/taste-skill-classics](https://github.com/Leonxlnx/taste-skill-classics) | Copied, MIT |
+| [anti-ui-slop](downloaded/design/anti-ui-slop) | Keep agent-built UI product-specific, with a finish gate | [uizze/uizze](https://github.com/uizze/uizze) | Copied, Apache-2.0 |
+| [diagram-design](downloaded/design/diagram-design) | Branded architecture diagrams, flowcharts, timelines and more | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Copied, MIT |
+| design-taste-frontend | Build or redesign company sites to a high bar | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Linked only: bundles about 40 MB of third-party photos under their own licenses |
+| redesign-existing-projects | Audit an existing page before restyling it | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Linked only: retired upstream and folded into design-taste-frontend |
+| web-design-guidelines | Review UI code against Vercel's Web Interface Guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Linked only: its bundled guidelines file comes from a repo with no stated license |
+
+To install a linked-only skill, follow the install line in its upstream README (most use `npx skills add <repo> --skill <name>`).
 
 ## downloaded/
 
