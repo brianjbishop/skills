@@ -1,0 +1,17 @@
+{
+  "notion": {
+    "site_database_id": "YOUR_SITE_DATABASE_ID",
+    "command_space_data_source": "YOUR_COMMAND_SPACE_DATA_SOURCE_ID"
+  },
+  "figma": {
+    "your_user_id": "FILLED_IN_FROM_WHOAMI"
+  },
+  "media": {
+    "provider": "cloudinary",
+    "cloud_name": "YOUR_CLOUD_NAME"
+  },
+  "vercel": {
+    "project": "YOUR_VERCEL_PROJECT",
+    "rebuild_hook_env_var": "VERCEL_DEPLOY_HOOK_URL"
+  }
+}

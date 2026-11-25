@@ -1,0 +1,17 @@
+# Skills with personal details, kept on disk but never published
+made/apply/
+made/chef/
+made/chef-bulk/
+made/port-entry/
+made/brian-blog-voice/
+
+# Local config with IDs and account names
+config.local.json
+**/config.local.json
+.env
+.env.*
+
+# Private reference files
+*.pdf
+
+.DS_Store
